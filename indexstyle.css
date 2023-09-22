@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(63, 63, 63);
+}
+header{
+    background-color: antiquewhite;
+    height: 10vh;
+    width: 100%;
+}
+nav li{
+    list-style: none;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    background-color: rgb(87, 81, 73);
+}
+
+.section{
+    background-color: rgb(216, 182, 138);
+    height: 5vh;
+}
+.article{
+    background-color: rgb(149, 99, 33);
+    height: 75vh;
+}
+footer{
+    background-color: rgb(207, 181, 148);
+    height: 10vh;
+}
+.box{
+    display: flex;
+    height: 80vh;
+}
+.boxlarge{
+    width: 60%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
